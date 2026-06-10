@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio Java Full Stack</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nidia Romo | Java Full Stack Developer</title>
 
-  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
 
-  <header class="header">
-    <h2 class="logo">✦ Nidia Romo</h2>
+    <header class="header">
+        <h2 class="logo">✦ Nidia Romo</h2>
 
-    <nav>
-      <a href="#sobre-mi">Sobre mí</a>
-      <a href="#skills">Skills</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#contacto" class="nav-btn">Contacto</a>
-    </nav>
-  </header>
+     <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#skills">Skills</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
 
-  <section class="hero" id="inicio">
-    <div class="hero-bg-text">NIDIA ROMO</div>
+        <a href="./archivos/Nidia Vanessa Romo Rivera-1.pdf"
+       download
+       class="nav-btn">
+       Descargar CV
+    </a>
+</nav>
+    </header>
 
-    <div class="hero-image-box">
-      <img src="./imagen/nidia4.jpeg" alt="Foto de perfil">
-    </div>
+    <section class="hero" id="inicio">
 
-    <div class="hero-content">
-      <h1>NIDIA ROMO</h1>
-      <h3>Java Full Stack Developer</h3>
+        <div class="hero-bg-text">NIDIA ROMO</div>
 
-      <p>
+        <div class="hero-image-box">
+            <img src="./imagen/nidia4.jpeg" alt="Foto de Nidia Romo">
+        </div>
+
+<div class="hero-content">
+
+    <h1>NIDIA ROMO</h1>
+
+    <h3>Java Full Stack Developer</h3>
+
+    <p>
         Desarrollo aplicaciones web modernas, escalables y funcionales
-        usando JavaScript, Java y HTML, CSS, GitHub.
-      </p>
+        usando Java, Spring Boot, JavaScript, SQL y APIs REST.
+    </p>
 
     <div class="socials">
 
@@ -53,173 +62,286 @@
             LinkedIn
         </a>
 
-        <a href="romo.nidiav@gmail.com">
+        <a href="mailto:romo.nidiav@gmail.com">
             <i class="fa-solid fa-envelope"></i>
             Email
         </a>
 
     </div>
 
-    <button class="scroll-btn" onclick="scrollToSection()">Scroll<br>down</button>
-  </section>
+    <!-- BOTÓN CV -->
 
-  <section class="about" id="sobre-mi">
-    <div class="about-text">
-      <h2>Hola,<br>soy Nidia!</h2>
+    <div class="hero-buttons">
 
-      <p>
-        Soy desarrolladora Java Full Stack. Me enfoco en crear aplicaciones web
-        limpias, eficientes y bien estructuradas, conectando backend, frontend
-        y bases de datos para construir soluciones completas.
-      </p>
+        <a href="./archivos/Nidia Vanessa Romo Rivera-1.pdf"
+           target="_blank"
+           class="cv-btn">
 
-      <a href="#contacto" class="search-btn">✦ Contáctame</a>
+            <i class="fa-solid fa-file-pdf"></i>
+
+            Ver CV
+
+        </a>
+
     </div>
 
-    <div class="about-card">
-      <img src="./imagen/nidia.jpeg" alt="Foto de perfil">
+</div>
 
-      <div class="contact-card">
-        <h3>Contacto</h3>
-        <p>📍 Guadalajara, México</p>
-        <p>✉️ romo.nidiav@email.com</p>
-        <p>💻 github.com/romonidia</p>
-      </div>
-    </div>
-  </section>
+        <button class="scroll-btn" onclick="scrollToSection()">
+            Scroll<br>down
+        </button>
 
-  <section class="resume">
-    <div class="education">
-      <h2>Educación</h2>
+    </section>
 
-      <div class="item">
-        <h3>2026 </h3>
-        <p>Bootcamp Generation Java Full Stack</p>
-      </div>
+    <section class="about" id="sobre-mi">
 
-      <div class="item">
-        <h3>2025</h3>
-        <p>Oracle Next Education</p>
-      </div>
+        <div class="about-text">
+            <h2>Hola,<br>soy Nidia!</h2>
 
-      <div class="experience-box">
-        <h2>Experiencia</h2>
+            <p>
+                Soy desarrolladora Java Full Stack en formación, con interés en crear
+                aplicaciones web funcionales, bien estructuradas y centradas en la
+                experiencia del usuario.
+            </p>
 
-        <div class="item dark">
-          <h3>2026</h3>
-          <p>Desarrollo de proyectos web con Java, JavaScript, SQL.</p>
-        </div>
+            <p>
+                Me gusta combinar la lógica del backend con interfaces visualmente
+                cuidadas, usando tecnologías como Java, Spring Boot, HTML, CSS,
+                JavaScript, Bootstrap, Git y bases de datos SQL.
+            </p>
 
-        <div class="tags">
-          <span>#Java</span>
-          <span>#SpringBoot</span>
-          <span>#Backend</span>
-          <span>#FullStack</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="skills" id="skills">
-      <h2>Technical Skills</h2>
-
-      <div class="skill-columns">
-        <div>
-          <h3>Backend</h3>
-          <p>Java</p>
-          <p>Spring Boot</p>
-          <p>REST APIs</p>
-          <p>Spring Security</p>
-        </div>
-
-        <div>
-          <h3>Frontend</h3>
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>JavaScript</p>
-          <p>React</p>
-        </div>
-
-        <div>
-          <h3>Database</h3>
-          <p>MySQL</p>
-          <p>PostgreSQL</p>
-          <p>SQL</p>
-          <p>JPA</p>
-        </div>
-
-         <div>
-          <h3>Tools</h3>
-          <p>Scrum</p>
-          <p>Git</p>
-          <p>Github</p>
-          <p>VS code</p>
-          <p>Figma</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="projects" id="proyectos">
-    <h2>Proyectos</h2>
-
-    <div class="project-grid">
-      <div class="project-card">
-        <h3>Sistema de Inventario</h3>
-        <p>Aplicación CRUD con Java, Spring Boot, MySQL y autenticación.</p>
-        <button onclick="verProyecto('Sistema de Inventario')">Ver más</button>
-      </div>
-
-      <div class="project-card">
-        <h3>API REST Usuarios</h3>
-        <p>API con endpoints, validaciones, base de datos y seguridad.</p>
-        <button onclick="verProyecto('API REST Usuarios')">Ver más</button>
-      </div>
-
-      <div class="project-card">
-        <h3>Dashboard Web</h3>
-        <p>Frontend responsivo conectado a servicios backend.</p>
-        <button onclick="verProyecto('Dashboard Web')">Ver más</button>
-      </div>
-    </div>
-  </section>
-
-<section class="contact" id="contacto">
-
-    <div class="contact-container">
-
-        <h2>Trabajemos juntos</h2>
-
-        <p>
-            Estoy disponible para colaborar en proyectos,
-            oportunidades laborales y desarrollo de aplicaciones web.
-              ¿Tienes una idea, proyecto o una oportunidad profesional?
-            <br>
-            Me encantaría conocerte y conversar.
-        </p>
-
-        <div class="contact-links">
-
-            <a href="https://github.com/romonidia" target="_blank">
-                <i class="fa-brands fa-github"></i>
-                GitHub
+            <a href="#contacto" class="search-btn">
+                Contáctame
             </a>
+        </div>
 
-            <a href="https://www.linkedin.com/in/nidiaromo/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-                LinkedIn
-            </a>
+        <div class="about-card">
+            <img src="./imagen/nidia.jpeg" alt="Foto de Nidia Romo">
 
-            <a href="mailto:romo.nidiav@gmail.com">
-                <i class="fa-solid fa-envelope"></i>
-                Email
-            </a>
+            <div class="contact-card">
+                <h3>Contacto</h3>
+                <p><i class="fa-solid fa-location-dot"></i> México</p>
+                <p><i class="fa-solid fa-envelope"></i> romo.nidiav@gmail.com</p>
+                <p><i class="fa-brands fa-github"></i> github.com/romonidia</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="resume" id="skills">
+
+        <div class="education">
+            <h2>Educación</h2>
+
+            <div class="item">
+                <h3>2026</h3>
+                <p>Bootcamp Java Full Stack Jr.</p>
+            </div>
+
+            <div class="item">
+                <h3>Frontend</h3>
+                <p>HTML, CSS, JavaScript, Bootstrap y diseño responsivo.</p>
+            </div>
+
+            <div class="item">
+                <h3>Backend</h3>
+                <p>Java, Spring Boot, APIs REST y bases de datos SQL.</p>
+            </div>
+
+            <div class="experience-box">
+                <h2>Experiencia</h2>
+
+                <div class="item dark">
+                    <h3>Proyectos web</h3>
+                    <p>
+                        Desarrollo de interfaces, consumo de APIs, estructura de proyectos
+                        y control de versiones con Git y GitHub.
+                    </p>
+                </div>
+
+                <div class="tags">
+                    <span>#Java</span>
+                    <span>#SpringBoot</span>
+                    <span>#Frontend</span>
+                    <span>#FullStack</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <h2>Technical Skills</h2>
+
+            <div class="skill-columns">
+
+                <div>
+                    <h3>Backend</h3>
+                    <p>Java</p>
+                    <p>Spring Boot</p>
+                    <p>REST APIs</p>
+                    <p>MySQL</p>
+                </div>
+
+                <div>
+                    <h3>Frontend</h3>
+                    <p>HTML5</p>
+                    <p>CSS3</p>
+                    <p>JavaScript</p>
+                    <p>Bootstrap</p>
+                </div>
+
+                <div>
+                    <h3>Tools</h3>
+                    <p>Git</p>
+                    <p>GitHub</p>
+                    <p>VS Code</p>
+                    <p>IntelliJ IDEA</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="projects" id="proyectos">
+
+        <div class="projects-header">
+            <h1>PROYECTOS DESTACADOS</h1>
+            <p>
+                Algunos proyectos que he desarrollado durante mi formación
+                como Java Full Stack Developer.
+            </p>
+        </div>
+
+        <div class="project-grid">
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="./imagen/swaply.png" alt="Proyecto Swaply">
+                </div>
+
+                <div class="project-info">
+                    <span class="project-category">Frontend</span>
+                    <h3>Swaply</h3>
+
+                    <p>
+                        Red social para intercambio de coleccionables, cartas y artículos
+                        geek. Incluye login, feed, sidebar, secciones de usuario y diseño responsivo.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                <div class="project-links">
+
+                    <a href="https://swaply-roan.vercel.app/" target="_blank">
+                        Ver Proyecto →
+                    </a>
+
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="./imagen/JavaSport.png" alt="Proyecto JavaSport">
+                </div>
+
+                <div class="project-info">
+                    <span class="project-category">Landing Page</span>
+                    <h3>JavaSport</h3>
+
+                    <p>
+                        Landing page responsive para tienda deportiva. Proyecto colaborativo
+                        con secciones visuales, hero, productos y diseño adaptable.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>Bootstrap</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                     <div class="project-links">
+                    <a href="https://github.com/IsraelMRQ/Javasport" target="_blank">
+                        Ver Proyecto →
+                    </a>
+                </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="./imagen/portafolio.png" alt="Proyecto Portafolio">
+                </div>
+
+                <div class="project-info">
+                    <span class="project-category">Backend</span>
+                    <h3>Portafolio</h3>
+
+                    <p>
+                        Mi portafolio profesional
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>Java Script</span>
+                        <span>CSS</span>
+                        <span>HTML</span>
+                    </div>
+
+                 <div class="project-links">
+
+                    <a href="https://romonidia.github.io/portafolio-nidia/" target="_blank">
+                        Ver Proyecto →
+                    </a>
+                </div>
+                </div>
+            </article>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
+    <section class="contact" id="contacto">
 
-  <script src="script.js"></script>
+        <div class="contact-container">
+
+            <h2>Trabajemos juntos</h2>
+
+            <p>
+                Gracias por llegar hasta aquí.
+                Si tienes una oportunidad, proyecto o simplemente quieres conectar,
+                estaré encantada de escucharte.
+            </p>
+
+            <div class="contact-links">
+
+                <a href="https://github.com/romonidia" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/nidiaromo/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
+                </a>
+
+                <a href="mailto:romo.nidiav@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    Email
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Nidia Romo | Java Full Stack Developer</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

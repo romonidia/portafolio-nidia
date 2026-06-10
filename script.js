@@ -1,9 +1,11 @@
 function scrollToSection() {
-  document.querySelector("#sobre-mi").scrollIntoView({
-    behavior: "smooth"
-  });
+    const aboutSection = document.querySelector("#sobre-mi");
+
+    aboutSection.scrollIntoView({
+        behavior: "smooth"
+    });
 }
 
 function verProyecto(nombreProyecto) {
-  alert("Seleccionaste el proyecto: " + nombreProyecto);
+    alert("Seleccionaste el proyecto: " + nombreProyecto);
 }
